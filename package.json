@@ -11,6 +11,9 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "repository": {
+    "url": "https://github.com/hypocriteep/LABS_4_5_6"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -39,7 +42,11 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.0",
+    "@semantic-release/commit-analyzer": "^13.0.0",
+    "@semantic-release/github": "^11.0.1",
+    "@semantic-release/release-notes-generator": "^14.0.2",
     "eslint": "^8.50.0",
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.0"
+    "semantic-release": "^24.2.0"
   }
 }
