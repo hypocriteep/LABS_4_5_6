@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^8.50.0"
+    "eslint": "^8.50.0",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.0"
   }
 }
